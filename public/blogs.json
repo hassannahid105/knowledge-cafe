@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/cxDzsGS/react-blogs.png",
+    "title": "Exploring the Wilderness",
+    "author_img": "https://i.ibb.co/wWNQT9L/boy1.png",
+    "author": "John Doe",
+    "posted_date": "2024-05-09",
+    "reading_time": 30,
+    "hashtag": ["nature", "adventure", "exploration"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/cxDzsGS/react-blogs.png",
+    "title": "Discovering the Unknown",
+    "author_img": "https://i.ibb.co/wWNQT9L/boy1.png",
+    "author": "Jane Smith",
+    "posted_date": "2024-05-08",
+    "reading_time": 45,
+    "hashtag": ["travel", "discovery", "culture"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/cxDzsGS/react-blogs.png",
+    "title": "Journey into the Past",
+    "author_img": "https://i.ibb.co/wWNQT9L/boy1.png",
+    "author": "Alex Johnson",
+    "posted_date": "2024-05-07",
+    "reading_time": 60,
+    "hashtag": ["history", "archaeology", "time travel"]
+  }
+]
