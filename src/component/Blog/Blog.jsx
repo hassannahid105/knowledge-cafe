@@ -51,7 +51,7 @@ const Blog = ({ blog, handleBookmarks, handleSpendTime }) => {
         <button
           className="text-purple-800 underline text-sm underline-offset-2"
           onClick={() => {
-            handleSpendTime(reading_time);
+            handleSpendTime(reading_time, id);
           }}
         >
           Mark as read

@@ -12,10 +12,13 @@ function App() {
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
   };
-  const handleSpendTime = (time) => {
+  const handleSpendTime = (time, id) => {
     const newSpendTime = spendTime + time;
     setSpendTime(newSpendTime);
+    const newBookmarks = bookmarks.filter((bookmark) => bookmark.id !== id);
+    setBookmarks(newBookmarks);
   };
+
   console.log(bookmarks);
   return (
     <>
